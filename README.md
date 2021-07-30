@@ -35,3 +35,5 @@ What is new in version 1.3?
 
 - updated font awesome version to 4.7.0
 - minor change to included dir name
+
+NOTE: See full setup documentation found in Documentation dir via README.txt
