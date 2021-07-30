@@ -24,3 +24,14 @@ localization support:
 - espanol
 - french
 - italiano
+
+What is new in version 1.2?
+
+- updated css to reflect the past lock to close change
+- remove index template inserts as it is now a manual install if your theme has the index legend
+- added default input icon so as to correct issue with null input on newer versions of php
+
+What is new in version 1.3?
+
+- updated font awesome version to 4.7.0
+- minor change to included dir name

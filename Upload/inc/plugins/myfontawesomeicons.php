@@ -8,7 +8,7 @@
  *
  * MyBB Version: 1.8
  *
- * Plugin Version: 1.2
+ * Plugin Version: 1.3
  *
  */
 
@@ -93,7 +93,7 @@ if(!defined("IN_MYBB"))
 
         find_replace_templatesets("forumbit_depth3_statusicon", "#".preg_quote($old2)."#i", "$new2");
 
-        find_replace_templatesets("headerinclude", '#{\$stylesheets}(\r?)\n#', "{\$stylesheets}\n<link href=\"{\$mybb->asset_url}/inc/plugins/myfontawesomeicons/font-awesome/css/font-awesome.min.css\" rel=\"stylesheet\" type=\"text/css\">\n");
+        find_replace_templatesets("headerinclude", '#{\$stylesheets}(\r?)\n#', "{\$stylesheets}\n<link href=\"{\$mybb->asset_url}/inc/plugins/myfontawesomeicons/font-awesome-4/css/font-awesome.min.css\" rel=\"stylesheet\" type=\"text/css\">\n");
 
 		global $db;
 
@@ -154,7 +154,7 @@ if(!defined("IN_MYBB"))
 
         find_replace_templatesets("forumbit_depth3_statusicon", "#".preg_quote($old2)."#i", "$new2");
 
-        find_replace_templatesets("headerinclude", '#<link href=\"{\$mybb->asset_url}/inc/plugins/myfontawesomeicons/font-awesome/css/font-awesome.min.css\" rel=\"stylesheet\" type=\"text/css\">(\r?)\n#', "", 0);
+        find_replace_templatesets("headerinclude", '#<link href=\"{\$mybb->asset_url}/inc/plugins/myfontawesomeicons/font-awesome-4/css/font-awesome.min.css\" rel=\"stylesheet\" type=\"text/css\">(\r?)\n#', "", 0);
 
     	global $db;
 

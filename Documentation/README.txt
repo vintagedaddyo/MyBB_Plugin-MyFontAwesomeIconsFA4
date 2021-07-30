@@ -29,6 +29,11 @@ What is new in version 1.2?
 - remove index template inserts as it is now a manual install if your theme has the index legend
 - added default input icon so as to correct issue with null input on newer versions of php
 
+What is new in version 1.3?
+
+- updated font awesome version to 4.7.0
+- minor change to included dir name
+
 
 To Install:
 
@@ -112,7 +117,7 @@ In headerinclude template you would also need to make sure that after:
 
 There is the following include:
 
-<link href="{$mybb->asset_url}/inc/plugins/myfontawesomeicons/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="{$mybb->asset_url}/inc/plugins/myfontawesomeicons/font-awesome-4/css/font-awesome.css" rel="stylesheet" type="text/css">
 
 
 
