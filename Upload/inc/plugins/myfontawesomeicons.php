@@ -89,7 +89,7 @@ if(!defined("IN_MYBB"))
         find_replace_templatesets("forumbit_depth2_cat", "#".preg_quote($old1)."#i", "$new1");
 
         $old2 = "<div title=\"{\$lightbulb['altonoff']}\" class=\"subforumicon subforum_{\$lightbulb['folder']} ajax_mark_read\" id=\"mark_read_{\$forum['fid']}\"></div>";
-        $new2 = "<div title=\"{$lightbulb['altonoff']}\" class=\"subforumicon subforum_{\$lightbulb['folder']} ajax_mark_read\" id=\"mark_read_{\$forum['fid']}\"><i class=\"{\$forum['myfontawesomeicon']}\"></i></div>";
+        $new2 = "<div title=\"{\$lightbulb['altonoff']}\" class=\"subforumicon subforum_{\$lightbulb['folder']} ajax_mark_read\" id=\"mark_read_{\$forum['fid']}\"><i class=\"{\$forum['myfontawesomeicon']}\"></i></div>";
 
         find_replace_templatesets("forumbit_depth3_statusicon", "#".preg_quote($old2)."#i", "$new2");
 
@@ -150,7 +150,7 @@ if(!defined("IN_MYBB"))
         find_replace_templatesets("forumbit_depth2_cat", "#".preg_quote($old1)."#i", "$new1");
 
         $new2 = "<div title=\"{\$lightbulb['altonoff']}\" class=\"subforumicon subforum_{\$lightbulb['folder']} ajax_mark_read\" id=\"mark_read_{\$forum['fid']}\"></div>";
-        $old2 = "<div title=\"{$lightbulb['altonoff']}\" class=\"subforumicon subforum_{\$lightbulb['folder']} ajax_mark_read\" id=\"mark_read_{\$forum['fid']}\"><i class=\"{\$forum['myfontawesomeicon']}\"></i></div>";
+        $old2 = "<div title=\"{\$lightbulb['altonoff']}\" class=\"subforumicon subforum_{\$lightbulb['folder']} ajax_mark_read\" id=\"mark_read_{\$forum['fid']}\"><i class=\"{\$forum['myfontawesomeicon']}\"></i></div>";
 
         find_replace_templatesets("forumbit_depth3_statusicon", "#".preg_quote($old2)."#i", "$new2");
 
