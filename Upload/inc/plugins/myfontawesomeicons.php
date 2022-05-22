@@ -194,6 +194,13 @@ if(!defined("IN_MYBB"))
 			if($pluginargs['title'] == $lang->display_order)
 			{
 				$lang->load('forum_management_myfontawesomeicons');
+
+            if(empty($forum_data['myfontawesomeicons_icon']))
+            {
+                // display suggested icon in input if empty
+                $forum_data['myfontawesomeicons_icon'] = "fa-comments";
+            }
+
 				$form_container->output_row($lang->myfontawesomeicons_forum_icons, $lang->myfontawesomeicons_forum_icons_desc, $form->generate_text_box('myfontawesomeicons_icon', $forum_data['myfontawesomeicons_icon'], array('id' => 'myfontawesomeicons_icon')));
 			}
 		}
