@@ -30,7 +30,7 @@ $l['myfontawesomeicons_desc'] = "Configuraciones para MyFontAwesomeIcons.";
 
 // Forum Management
 
-$l['myfontawesomeicons_forum_icons'] = "Fuente Awesome Icon";
+$l['myfontawesomeicons_forum_icons'] = "Fuente Awesome 5 Icon";
 $l['myfontawesomeicons_forum_icons_desc'] = "El nombre CSS para el ícono impresionante de la fuente. Por ejemplo: fa-comments";
 
 ?>

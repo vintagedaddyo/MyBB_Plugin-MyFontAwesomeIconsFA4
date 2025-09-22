@@ -30,7 +30,7 @@ $l['myfontawesomeicons_desc'] = "Settings for MyFontAwesomeIcons.";
 
 // Forum Management
 
-$l['myfontawesomeicons_forum_icons'] = "Font Awesome Icon";
-$l['myfontawesomeicons_forum_icons_desc'] = "The CSS name for the font awesome icon. For example: fa-comments";
+$l['myfontawesomeicons_forum_icons'] = "Font Awesome 4 Icon";
+$l['myfontawesomeicons_forum_icons_desc'] = "The CSS name for the font awesome 4 icon. For example: fa-comments";
 
 ?>

@@ -12,7 +12,7 @@ Specifically modified by Vintagedaddyo for Font-Awesome 4.7 implementation after
 This will allow you to add custom Font-Awesome 4.7 icons for your forums.
 
 
-You can specify a css name to your forum's custom font-awesome icon by going to the ACP => Forum Management => Edit Forum.
+You can specify a css name to your forum's custom font-awesome 4 icon by going to the ACP => Forum Management => Edit Forum.
 
 
 localization support:
@@ -33,6 +33,10 @@ What is new in version 1.3?
 
 - updated font awesome version to 4.7.0
 - minor change to included dir name
+
+1.3 Revisited:
+
+- minor edits / cleanup to files (9/21/25)
 
 
 To Install:
